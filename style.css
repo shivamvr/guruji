@@ -1,0 +1,164 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+nav h1{
+    color: #9157FB;
+    padding-top: 10px;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-family: 'Exo 2', sans-serif;
+}
+nav{
+    display: flex;
+    border: 2px solid red;
+}
+nav>.left, nav>.right{
+    border: 2px solid green;
+}
+
+nav>.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+nav>.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+nav>.left>h2{
+    background: #9157FB;
+}
+
+.sec-1{
+    min-height: 450px;
+    display: flex;
+    background: pink;
+}
+.sec-1 h3{
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ccc;
+}
+.sec-1>.left{
+    padding: 1rem;
+    width: 50%;
+    background: yellow;
+}
+.sec-1>.right{
+    background: skyblue;
+}
+.sec-1>.left>h2{
+    width: 70%;
+    margin: 2rem;
+  font-size: 2rem;
+}
+.sec-1>.left>.ratings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: seagreen;
+}
+.sec-1 .rating{
+    width: 28%;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+    background-color: pink;
+}
+
+.sec-1 .btn{
+ background: #7115FD;
+ border-radius: 5px;
+ color: #fff;
+ width: 70px;
+ padding: 5px 15px;
+ font-size: 16px;
+ margin-top: 1rem;
+}
+
+.sec-2{
+    min-height: 450px;
+    font-size: 2rem;
+    background: rgb(115, 220, 161);
+}
+.sec-2 h2{
+  width: fit-content;
+  margin: 1rem auto;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+.sec-2 .btn{
+    background-color: skyblue;
+    border-radius: 6px;
+    padding: 4px;
+}
+.sec-2 .image-carsual{
+    margin-top: 2rem;
+    display: flex;
+    background: pink;
+}
+.sec-2 .image-carsual .card{
+    background: green;
+    margin: 4px;
+    border-radius: .5rem;
+}
+
+.sec-3{
+    min-height: 450px;
+    background: rgb(243, 203, 129);
+}
+.sec-3 h3, .sec-3 h2{
+    width: fit-content;
+    margin: 1rem auto;
+}
+.sec-3 p{
+    margin-top: 1rem;
+}
+
+.sec-4{
+    background: skyblue;
+    min-height: 400px;
+}
+
+.sec-4 h3, .sec-4 h2{
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+.sec-4 .cards{
+    background: greenyellow;
+}
+.sec-4 .cards>.card{
+    display: flex;
+    background: pink;
+    margin: .5rem;
+    border-radius: 1rem;
+    padding: 10px;
+}
+.sec-4 .cards>.card>div{
+
+    background: red;
+}
